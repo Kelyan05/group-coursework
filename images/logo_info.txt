@@ -1,7 +1,0 @@
-
-            Fonts used: LeagueGothic-Italic,CallunaSans-Italic 
-
-            Colors used: E2E2E2,171717  
-
-            Icon url: https://thenounproject.com/term/health/800263  
-        

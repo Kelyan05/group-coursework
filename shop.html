@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="shop.css" />
+  <link rel="stylesheet" href="global.css" />
+  <title>Shop</title>
+  <script src="shop.js"></script>
+</head>
+
+<body>
+  <nav class="topnav">
+    <img src="images/logo1.png" class="logo" alt="heart icon" />
+    <li><a class="navlink" href="home.html">Home</a></li>
+    <li><a class="navlink" href="shop.html">Shop</a></li>
+    <li><a class="navlink" href="">User Profile</a></li>
+    <li><a class="navlink" href="">Feedback</a></li>
+    <li><a class="navlink" href="">Team</a></li>
+    <li><a class="navlink" href="contentpage.html">Content Page</a></li>
+    <li><a class="navlink" href="pageeditor.html">Page Editor</a></li>
+  </nav>
+  <form>
+    <div class="grid-container">
+      <div class="shop-item">
+        <fieldset>
+          <span class="shop-item-title">ASTROWORLD</span>
+          <img class="shop-item-image" src="album images/ASTROWORLD TS.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">£24</span><br>
+            <button class="btn basket-button" type="button">Add To Basket</button>
+          </div>
+        </fieldset>
+      </div>
+      <div class="shop-item">
+        <fieldset>
+          <span class="shop-item-title">ASTROWORLD</span>
+          <img class="shop-item-image" src="album images/ASTROWORLD TS.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">£24</span><br>
+            <button class="btn basket-button" type="button">Add To Basket</button>
+          </div>
+        </fieldset>
+      </div>
+      <div class="shop-item">
+        <fieldset>
+          <span class="shop-item-title">ASTROWORLD</span>
+          <img class="shop-item-image" src="album images/ASTROWORLD TS.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">£24</span><br>
+            <button class="btn basket-button" type="button">Add To Basket</button>
+          </div>
+        </fieldset>
+      </div>
+      <div class="shop-item">
+        <fieldset>
+          <span class="shop-item-title">ASTROWORLD</span>
+          <img class="shop-item-image" src="album images/ASTROWORLD TS.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">£24</span><br>
+            <button class="btn basket-button" type="button">Add To Basket</button>
+          </div>
+        </fieldset>
+      </div>
+      <div class="shop-item">
+        <fieldset>
+          <span class="shop-item-title">ASTROWORLD</span>
+          <img class="shop-item-image" src="album images/ASTROWORLD TS.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">£24</span><br>
+            <button class="btn basket-button" type="button">Add To Basket</button>
+          </div>
+        </fieldset>
+      </div>
+      <div class="shop-item">
+        <fieldset>
+          <span class="shop-item-title">ASTROWORLD</span>
+          <img class="shop-item-image" src="album images/ASTROWORLD TS.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">£10</span><br>
+            <button class="btn basket-button" type="button">Add To Basket</button>
+          </div>
+        </fieldset>
+      </div>
+      <div class="shop-item">
+        <fieldset>
+          <span class="shop-item-title">ASTROWORLD</span>
+          <img class="shop-item-image" src="album images/ASTROWORLD TS.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">£12</span><br>
+            <button class="btn basket-button" type="button">Add To Basket</button>
+          </div>
+
+        </fieldset>
+      </div>
+      <div>
+        <fieldset>
+          <span class="shop-item-title">ASTROWORLD</span>
+          <img class="shop-item-image" src="album images/ASTROWORLD TS.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">£24</span> <br>
+            <button class="btn basket-button" type="button">Add To Basket</button>
+        </fieldset>
+      </div>
+    </div>
+
+    <section class="basket-container">
+      <h3 class="basket-title">CART</h3>
+      <div class="basket-row">
+        <span class="basket-item basket-column">ITEM</span>
+        <span class="basket-price basket-column">PRICE</span>
+        <span class="basket-quantity basket-column">QUANTITY</span>
+      </div>
+      <div class="basket-items">
+      </div>
+      <div class="basket-total">
+        <strong class="basket-total-title">Total</strong>
+        <span class="basket-total-price">£0</span>
+      </div>
+      <button class="btn btn-primary btn-purchase">CHECKOUT</button>
+    </section>
+    <fieldset class="special">
+      <h3 id="checkout">You are almost there...</h3>
+      <p>Fill in the details below to complete your purchase :)</p>
+    </fieldset>
+    <form>
+      <fieldset class="contact">
+        <h2>Payment Details</h2>
+        <label for="cardnumber">Card Number</label><br />
+        <input type="text" id="cardnumber" name="cardnumber" size="30" /><br />
+        <label for="cardnumber">Cardholder Name</label><br />
+        <input type="text" id="cardholdername" name="cardholdername" size="30" /><br />
+        <label for="expirydate">Expiry Date</label><br />
+        <input type="text" id="expirydate" name="expirydate" size="10" /><br />
+        <label for="expirydate">CCV</label><br />
+        <input type="text" id="ccv" name="ccv" size="10" /><br />
+        <br />
+        <input type="reset" name="ClearFields" id="Reset" value="Clear Fields" size="5" placeholder="Send" />
+      </fieldset>
+    </form>
+    <form>
+      <fieldset class="contact">
+        <h2>Billing Address</h2>
+        <label for="addressline1">Address Line 1</label><br />
+        <input type="text" id="addressline1" name="addressline1" size="30" /><br />
+        <label for="addressline2"> Adress Line 2</label><br />
+        <input type="text" id="addressline2" name="addressline2" size="30" />
+        <br />
+        <label for="addressline3">Address Line 3</label><br />
+        <input type="text" id="addressline3" name="addressline3" size="30" /><br />
+        <label for="place">Town/City</label><br />
+        <input type="text" id="place" name="place" size="10" /><br />
+        <label for="addressline3">State/Country</label><br />
+        <input type="text" id="ccv" name="ccv" size="10" /><br />
+        <br />
+        <label for="quantity">Country:</label><br />
+        <select name="quantity" id="quantity">
+          <option value="one" selected>France</option>
+          <option value="two">Italy</option>
+          <option value="three">Germany</option>
+          <option value="four">Sweden</option>
+          <option value="five">Italy</option>
+          <option value="three">Cameroon</option>
+          <option value="four">India</option>
+          <option value="two">Jamaica</option>
+          <option value="three">Russia</option>
+          <option value="four">Greece</option>
+        </select>
+        <br />
+        <br />
+        <input type="reset" name="ClearFields" id="Reset" value="Clear Fields" size="5" placeholder="Send" />
+
+      </fieldset>
+    </form>
+    <fieldset class="contact">
+      <h2>Contact details</h2>
+      <label for="firstname">First Name </label><br />
+      <input type="text" name="firstname" id="firstname" size="20" required />
+      <br />
+      <label for="surname">Surname </label><br />
+      <input type="text" name="surname" id="surname" size="20" required />
+      <br />
+      <label for="phonenumber">Phone Number </label><br />
+      <input type="text" name="phonenumber" id="phonenumber" size="20" required />
+      <br />
+      <label for="email">Email Address </label><br />
+      <input type="text" name="email" id="email" size="20" required />
+      <br />
+      <br />
+      <input type="reset" name="ClearFields" id="Reset" value="Clear Fields" size="5" placeholder="Send" />
+      <input type="submit" name="save" id="save" size="5" value="Save Changes" />
+    </fieldset>
+  </form>
+  <a href="#top">Back to the top</a>
+</body>
+
+
+</html>

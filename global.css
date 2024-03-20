@@ -6,12 +6,15 @@ body {
 }
 
 .topnav {
+  position: fixed;
+  top: 0;
+  width: 100%;
   list-style-type: none;
   margin: 0;
   overflow: hidden;
   background-color: #333;
   /* extra padding on the right to give space to "page editor" */
-  padding-right: 30px;
+  padding-right: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;

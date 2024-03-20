@@ -1,19 +1,42 @@
+h1 {
+    font-size: 400%;
+    text-align: center;
+    padding-top: 3%;
+  }
+
+h2{
+    text-align: center;
+}
+
 #BiggerAvatar {
-    width: 175px;
-    height: 175px;
-    margin-top: 8%;
-    margin-left: 5%;
+    width: 150px;
+    height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
+
 }
 
 .Team {
-    width: 150px;
-    height: 150px;
-    display: inline-block;
-    padding-left: 12%;
-    margin-top: 8%;
+    width: 135px;
+    height: auto;
+    margin-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.teamImages { 
+    display: flex; 
     margin-left: auto;
     margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+  
+}
+
+.memberDescription{
+    font-size: 120%;
+    text-align: center;
+    margin-top: 2%;
 }

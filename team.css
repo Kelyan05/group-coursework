@@ -1,24 +1,15 @@
 h1 {
     font-size: 400%;
     text-align: center;
-    padding-top: 3%;
+    padding-top: 5%;
   }
 
 h2{
     text-align: center;
 }
 
-#BiggerAvatar {
-    width: 150px;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
 .Team {
-    width: 135px;
+    width: 175px;
     height: auto;
     margin-top: 5%;
     padding-left: 5%;
@@ -31,12 +22,35 @@ h2{
     margin-right: auto;
     align-items: center;
     justify-content: center;
-    margin-bottom: 5%;
-  
+    margin-bottom: 2%;
 }
 
-.memberDescription{
-    font-size: 120%;
-    text-align: center;
-    margin-top: 2%;
+.team-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
+
+.team-member {
+    width: 225px;
+    margin: 45px;
+    text-align: center;
+    transition: transform 0.5s ease-in-out;
+}
+
+.team-member img {
+    width: 100%;
+}
+
+.team-member h3 {
+    margin-top: 10px;
+}
+
+.team-member p {
+    font-size: 14px;
+}
+
+.team-member:hover {
+    transform: scale(1.1);
+}
+

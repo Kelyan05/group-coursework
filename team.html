@@ -24,37 +24,34 @@
 
     <h1>Say Hello To The Team!!</h1>
 
-    <h2 alt="Names for Team Members" id="MemberName">&#8203;</h2>
+    <h2 alt="Names for Team Members" id="MemberName">Hover over the images for more details!!</h2>
 
-    <div class="centerMember">
-    <img src="images/fillerProfile1.png" alt="Avatar 1" id="BiggerAvatar">
-    <div class="memberDescription"><span id="description">Hover over one of the images below <br> to display information about each of us!!</span></div>
-
+    <section class="team-container">
+      <div class="team-member">
+          <img src="images/fillerProfile1.png" alt="Team Member 1">
+          <h3>Kelyan Djomo</h3>
+          <p>Student 1</p>
+      </div>
+      <div class="team-member">
+          <img src="images/fillerProfile2.png" alt="Team Member 2">
+          <h3>Manjit Somal</h3>
+          <p>Student 2</p>
+      </div>
+      <div class="team-member">
+        <img src="images/fillerProfile3.png" alt="Team Member 2">
+        <h3>Mohammad Bari</h3>
+        <p>Student 3</p>
     </div>
-
-    <div class="teamImages">
-    <img src="images/fillerProfile1.png" class="Team" alt="Team Member 1" onmouseover="changeMainMember(this.src); changeDescription(0); changeName(0);">
-    <img src="images/fillerProfile2.png" class="Team" alt="Team Member 2" onmouseover="changeMainMember(this.src); changeDescription(1); changeName(1);">
-    <img src="images/fillerProfile3.png" class="Team" alt="Team Member 3" onmouseover="changeMainMember(this.src); changeDescription(2); changeName(2);">
-    <img src="images/fillerProfile4.png" class="Team" alt="Team Member 4" onmouseover="changeMainMember(this.src); changeDescription(3); changeName(3);">
-    </div>
-
-    <script>
-      function changeMainMember(source) {
-        document.getElementById("BiggerAvatar").src = source;
-      }
-
-      function changeDescription(index) {
-        const memberDescriptions = ["Member 1", "Member 2", "Member 3", "Member 4"];
-        document.getElementById("description").innerHTML = memberDescriptions[index];
-      }
-
-      function changeName(index) {
-        const memberNames = ["Kelyan Djomo", "Manjit Somal", "Mohammad Bari", "Misal Rishona"];
-        document.getElementById("MemberName").innerHTML = memberNames[index];
-      }
-
-    </script>
+    <div class="team-member">
+      <img src="images/fillerProfile4.png" alt="Team Member 2">
+      <h3>Misal Rishona</h3>
+      <p>Student 4</p>
+  </div>
+  
+  </section>
+  
+  
+   
     
   </body>
 </html>

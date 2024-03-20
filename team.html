@@ -22,12 +22,20 @@
       <li><a class="navlink" href="">Page Editor</a></li>
     </nav>
 
-    <img src="images/fillerProfile1.png" alt="Avatar 1" id="BiggerAvatar" width="200" height="200">
+    <div>
+    <img src="images/fillerProfile1.png" alt="Avatar 1" id="BiggerAvatar">
+    </div>
 
-    <img src="images/fillerProfile1.png" class="Team" alt="Team Picture 1" width="200" height="200">
-    <img src="images/fillerProfile2.png" class="Team" alt="Team Picture 2" width="200" height="200">
-    <img src="images/fillerProfile3.png" class="Team" alt="Team Picture 3" width="200" height="200">
-    <img src="images/fillerProfile4.png" class="Team" alt="Team Picture 4" width="200" height="200">
+    <img src="images/fillerProfile1.png" class="Team" alt="Team Member 1" onmouseover="changeMainMember(this.src)">
+    <img src="images/fillerProfile2.png" class="Team" alt="Team Member 2" onmouseover="changeMainMember(this.src)">
+    <img src="images/fillerProfile3.png" class="Team" alt="Team Member 3" onmouseover="changeMainMember(this.src)">
+    <img src="images/fillerProfile4.png" class="Team" alt="Team Member 4" onmouseover="changeMainMember(this.src)">
+
+    <script>
+      function changeMainMember(source) {
+        document.getElementById("BiggerAvatar").src = source;
+      }
+    </script>
     
   </body>
 </html>

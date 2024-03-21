@@ -1,7 +1,6 @@
 .cover {
     background: #333;
     position: absolute;
-    top: 30%;
     left: 30%;
     transform: translate(-50% -50%);
     display: flex;
@@ -10,6 +9,10 @@
     padding-bottom: 20px;
     width: 40%;
     border-radius: 15px;
+}
+
+::placeholder {
+    text-align: center;
 }
 
 .prompt {
@@ -25,7 +28,9 @@
 }
 
 .start{
-    border: 5 solid #333;
+    border: 2px solid #4fa3ab;
+    background-color: #333;
+    color: white;
     border-radius: 7px;
     display: flex;
     margin-bottom: 30px;
@@ -48,12 +53,17 @@
 }
 
 .next  {
-    border: 3px solid white;
-    border-radius: 7px;
+    background-color: #333;
+    color: white;
+    border: 2px solid #4fa3ab;
+    height: 25px;
+    border-radius: 7px;   
 }
 
 .skip {
-    border: 3px solid white;
+    background-color: #333;
+    color: white;
+    border: 2px solid #4fa3ab;
     border-radius: 7px;     
     margin-left: 10px;
 }

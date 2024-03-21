@@ -18,7 +18,7 @@ img {
 }
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(4, 224px);
+    grid-template-columns: repeat(4, 300px);
     justify-content: center;
     row-gap: 1em;
   }
@@ -43,7 +43,6 @@ h3 {
 }
 span {
     margin-left: 30px;
-    text-decoration: underline;
 }
 section {
     background-color: #4fa3ab;

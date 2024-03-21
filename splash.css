@@ -1,3 +1,36 @@
-img {
-  float: left;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+.names {
+  flex: 1;
+  padding: 20px;
+  border-left: 2px solid #ccc;
+  /* Vertical border */
+}
+
+.names ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.names ul li {
+  margin-bottom: 10px;
 }

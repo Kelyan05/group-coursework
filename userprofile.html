@@ -2,24 +2,44 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <!-- <title>VitalityHub</title> -->
-        <link rel="stylesheet" href="userprofile.css" />
+        <title>VitalityHub</title> 
+        <link rel="stylesheet" href="userprofile.css"/> 
+        <link rel="stylesheet" href="global.css"/>
         <link rel="shortcut icon" type="image/png" href="images/health-logos_white.png"/>
         <!-- <link rel="stylesheet" href="" -->
     </head>
 
+   
+
     <body>
-        <ul>
-            <li><a href="home.html" class="navigation">Home</a></li>
-            <li><a href="shop.html" class="navigation">Shop</a></li>
-            <li><a href="userprofile.html" class="navigation">User Profile</a></li>
-            <li><a href="" class="navigation">Feedback</a></li>
-            <li><a href="team.html" class="navigation">Team</a></li>
-            <li><a href="" class="navigation">Content Page</a></li>
-            <li><a href="" class="navigation">Page editor </a></li>
-        </ul>
+        <nav class="topnav">
+            <img src="images/logo1.png" class="logo" alt="heart icon" />
+            <li><a class="navlink" href="home.html">Home</a></li>
+            <li><a class="navlink" href="shop.html">Shop</a></li>
+            <li><a class="navlink" href="userprofile.html">User Profile</a></li>
+            <li><a class="navlink" href="">Feedback</a></li>
+            <li><a class="navlink" href="team.html">Team</a></li>
+            <li><a class="navlink" href="">Content Page</a></li>
+            <li><a class="navlink" href="">Page Editor</a></li>
+          </nav>
+          <div class = "Profile">
+          <h1>Build User Profile :</h1>
+          <div class = "Step 1">
+          <h2>Step 1 Personal Details:</h2>
+            <p>What is your Full Name?</p>
+            <span id="question1"> </span>
+            <span id="answer1"> </span>
+            <input type = "text" id="fullname">
+            <button onclick="nextStep()">Next</button>
+          </div>
+        </div>
+        </div>
     </body>
 
+    <script>
+        /// First Prompt
+        let profileAnswer1 = prompt("Answer 1:")
 
+    </script>
 
 </html>

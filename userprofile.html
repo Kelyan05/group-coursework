@@ -35,18 +35,25 @@
             <li><a class="navlink" href="">Page Editor</a></li>
         </nav>
 
-        <div class = "Profile">
-        <h1>Build User Profile :</h1>
-        <div class = "Step 1">
-            <h2>Step 1 Personal Details:</h2>
-            <p>What is your Full Name?</p>
-            <span id="question1"> </span>
-            <span id="answer1"> </span>
-            <input type = "text" id="fullname">
-            <button onclick="nextStep()">Next</button>
-        </div>
-        </div>
-        </div>
+            <div class="top">
+                <h1>Build User Profile: <br><span></span></h1>
+            </div>
+            <div class="start">
+                <button onclick="Start()" class="start">Start</button>
+            </div>
+
+            <div class="cover">
+                <div class="top">
+                    <h2 class="prompt">First Name:</h2>
+                </div>
+                <div class="middle">
+                    <input type="text" placeholder="Enter your First Name">
+                </div>
+                <div class="bottom">
+                    <button onclick="Next()" class="next">Next</button>
+                    <button onclick="Skip()" class="skip" >Skip</button>
+                </div>
+            </div>
     </body>
 
     <script>

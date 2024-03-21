@@ -71,6 +71,16 @@ section {
     vertical-align: middle;
     padding: .67em .67em;
     cursor: pointer;
+    outline: none;
+    border-radius: 15px;
+}
+.btn:hover {
+    background-color: #333;
+}
+.btn:active {
+    background-color: #4fa3ab;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
 .remove-button {
     color: white;

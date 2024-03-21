@@ -1,42 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <title>VitalityHub</title>
-        <link rel="stylesheet" href="home.css" />
-        <link rel="stylesheet" href="global.css" />
-        <link rel="shortcut icon" type="images/png" href="images/logo1.png" />
-    </head>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="gallery.css">
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="lightbox.css">
+</head>
+<body>
 
-    <body>
-        <header class="header">
-            <br/>
-            <br/>
-            <img src="images/logo1.png" class="HeadLogo" alt="heart icon" />
-            <div class="headertitle">
-                UNITED <br/> NATIONS
-            </div>
-            <div class="line"></div>
-            <div class="headertext">
-                GOOD HEALTH AND <br/>WELL-BEING
-            </div>
-            <br/>
-            <br/>
-        </header>
+    <nav class="topnav">
+        <li><a class="navlink" href="home.html">Home</a></li>
+        <li><a class="navlink" href="shop.html">Shop</a></li>
+        <li><a class="navlink" href="userprofile.html">User Profile</a></li>
+        <li><a class="navlink" href="">Feedback</a></li>
+        <li><a class="navlink" href="team.html">Team</a></li>
+        <li><a class="navlink" href="">Content Page</a></li>
+        <li><a class="navlink" href="">Page Editor</a></li>
+    </nav>
+    
+<div class="container">
+    <div class="gallery">
+        <a href="images/1.jpg" data-lightbox="guests" data-title="Caption1">
+            <img src= "images/1.jpg">   
+        </a>
+        <a href="images/2.jpg" data-lightbox="guests" data-title="Caption2">
+            <img src= "images/2.jpg">   
+        </a> 
+        <a href="images/3.jpg" data-lightbox="guests" data-title="Caption3">
+            <img src= "images/3.jpg">   
+        </a> 
+        <a href="images/4.jpg" data-lightbox="guests" data-title="Caption4">
+            <img src= "images/4.jpg">   
+        </a>
+         <a href="images/5.jpg" data-lightbox="guests" data-title="Caption5">
+            <img src= "images/5.jpg">   
+        </a> 
+        <a href="images/6.jpg" data-lightbox="guests" data-title="Caption6">
+            <img src= "images/6.jpg">   
+        </a> 
+        <a href="images/7.jpg" data-lightbox="guests" data-title="Caption7">
+            <img src= "images/7.jpg">   
+        </a> 
+        <a href="images/8.jpg" data-lightbox="guests" data-title="Caption8">
+            <img src= "images/8.jpg">   
+        </a> 
+       
 
-        <nav class="topnav">
-            <li><a class="navlink" href="home.html">Home</a></li>
-            <li><a class="navlink" href="gallery.html">Gallery</a></li>
-            <li><a class="navlink" href="shop.html">Shop</a></li>
-            <li><a class="navlink" href="userprofile.html">User Profile</a></li>
-            <li><a class="navlink" href="feedback.html">Feedback</a></li>
-            <li><a class="navlink" href="sitemap.html">Sitemap</a></li>
-            <li><a class="navlink" href="team.html">Team</a></li>
-            <li><a class="navlink" href="">Content Page</a></li>
-            <li><a class="navlink" href="">Page Editor</a></li>
-        </nav>
-
-
-        
-    </body>
+    </div>
+</div>
+    <script src="lightbox-plus-jquery.js"></script>
+</body>
 </html>

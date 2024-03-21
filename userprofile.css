@@ -1,28 +1,32 @@
 .cover {
-    background: rgb(124, 121, 121);
+    background: #333;
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 30%;
     transform: translate(-50% -50%);
     display: flex;
     flex-direction: column;
     border: 0.7px solid rgb(98, 98, 98);
-    padding: 7px;
-    width: 35%;
+    padding-bottom: 20px;
+    width: 40%;
+    border-radius: 15px;
 }
 
 .prompt {
-    margin: 0;
+    margin: 3%;
     color: white;
 }
 
 .top {
+    padding-top: 1%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .start{
+    border: 5 solid #333;
+    border-radius: 7px;
     display: flex;
     margin-bottom: 30px;
     justify-content: center;
@@ -31,21 +35,31 @@
 
 .middle {
     display: flex;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     justify-content: center;
     align-items: center
 }
 
 .bottom {
     display: flex;
-    justify-content: end;
+    padding-right: 45%;
+    padding-left: 42%;
+ 
+}
+
+.next  {
+    border: 3px solid white;
+    border-radius: 7px;
 }
 
 .skip {
+    border: 3px solid white;
+    border-radius: 7px;     
     margin-left: 10px;
 }
 
 input {
+    border-radius: 5px;
     border-left: 0;
     border-right: 0;
     border-top: 0;
@@ -56,5 +70,5 @@ input {
     margin-left: 5px;
     outline: none;
     height: 30px;
-    width: 93;
+    width: 200px;
 }

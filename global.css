@@ -2,11 +2,11 @@
 body {
   margin: 0;
   padding: 0;
-  font-family:"Arial, Helvetica, sans-serif";
+  font-family: "Arial, Helvetica, sans-serif";
 }
 
 .topnav {
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   width: 100%;
   list-style-type: none;
@@ -45,4 +45,37 @@ li {
   width: 60px;
   height: 50px;
   padding: 15px;
+}
+
+.header{
+  /* align-items: center; */
+}
+
+.HeadLogo {
+  width: 7%;
+  top: 3%;
+  padding-left: 29%;
+}
+
+.line{
+  border-left: 5px solid #4fa3ab; 
+  /* need to make 5px into % because it is not responsive */
+  height: 13%;
+  position: absolute;
+  left: 50%;
+  top: 3%;
+}
+
+.headertitle{
+  position: absolute;
+  font-size: 250%;
+  left: 38%;
+  top: 4%;
+}
+
+.headertext{
+  position: absolute;
+  font-size: 250%;
+  left: 52%;
+  top: 4%;
 }

@@ -2,7 +2,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Arial, Helvetica, sans-serif";
+  /* font-family: "Arial, Helvetica, sans-serif"; */
   overflow-x: hidden;
 }
 
@@ -15,9 +15,11 @@ body {
   overflow: hidden;
   background-color: #333;
   /* extra padding on the right to give space to "page editor" */
-  padding-right: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 85px;
   align-items: center;
 }
 
@@ -32,6 +34,7 @@ li {
   color: white;
   text-align: center;
   text-decoration: none;
+  font-size: larger;
   padding: 0px 15px;
   height: 80px;
   /* width: 60px; */
@@ -48,9 +51,7 @@ li {
   padding: 15px;
 }
 
-.header{
-  /* align-items: center; */
-}
+
 
 .HeadLogo {
   width: 7%;

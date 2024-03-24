@@ -3,7 +3,7 @@
     position: absolute;
     left: 30%;
     transform: translate(-50% -50%);
-    display: flex;
+    display: none;
     flex-direction: column;
     border: 0.7px solid rgb(98, 98, 98);
     padding-bottom: 20px;
@@ -66,6 +66,18 @@
     border: 2px solid #4fa3ab;
     border-radius: 7px;     
     margin-left: 10px;
+}
+
+.top , .start {
+    .next  {
+        background-color: #333;
+        color: white;
+        border: 3px solid #4fa3ab;
+        height: 40px;
+        width: 65px;
+        border-radius: 7px;  
+        margin-top: 1px; 
+    }   
 }
 
 input {

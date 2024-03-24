@@ -38,8 +38,10 @@
     </nav>
 
             <div class="top">
-                <h1>Build Your User Profile: <br><span></span></h1>
+                <h1>Build Your User Profile &nbsp; <span></span></h1>
+                <button onclick="showPrompt()"  class="next">Start</button>
             </div>
+            
 
             <div class="cover">
                 <div class="top">
@@ -53,12 +55,15 @@
                     <button onclick="Skip()" class="skip" >Skip</button>
                 </div>
             </div>
+            
     </body>
 
     <script>
-        /// First Prompt
-        let profileAnswer1 = prompt("Answer 1:")
+        let createdPrompt = "";
+        function showPrompt() {
+            document.querySelector(".cover").style.display = "flex";
+        }
 
     </script>
-
+    
 </html>

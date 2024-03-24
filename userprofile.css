@@ -1,4 +1,8 @@
-.cover {
+body {
+    height: 155vh;
+}
+
+.inputSection {
     background: #333;
     position: absolute;
     left: 30%;
@@ -6,9 +10,11 @@
     display: none;
     flex-direction: column;
     border: 0.7px solid rgb(98, 98, 98);
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     width: 40%;
+    border: 5px solid #4fa3ab;
     border-radius: 15px;
+    
 }
 
 ::placeholder {
@@ -16,7 +22,7 @@
 }
 
 .prompt {
-    margin: 3%;
+    margin-top: 10%; 
     color: white;
 }
 
@@ -68,6 +74,14 @@
     margin-left: 10px;
 }
 
+button.next:hover,
+.start:hover,
+.skip:hover {
+    background-color: #4fa3ab;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+}
+
 .top , .start {
     .next  {
         background-color: #333;
@@ -93,4 +107,59 @@ input {
     outline: none;
     height: 30px;
     width: 200px;
+    text-align: center;
 }
+
+.section-indicator {
+    color: white;
+    position: absolute;
+    margin-bottom: 3%;
+    font-size: 18px;
+
+}
+
+.user-inputs {
+    background: #333;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: calc(50% + 30%); 
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 0.7px solid rgb(98, 98, 98);
+    padding: 20px;
+    width: 40%;
+    border: 5px solid #4fa3ab;
+    border-radius: 15px;
+}
+
+.user-inputs div {
+    color: white;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-bottom: 1px solid #666;
+}
+
+.user-inputs div:last-child {
+    border-bottom: none;
+}
+
+.progress-bar {
+    width: 80%;
+    margin: 0 auto;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.progress {
+    height: 100%;
+    width: 0%;
+    background-color: #4fa3ab;
+    border-radius: 10px;
+    transition: width 0.5s ease;
+}
+

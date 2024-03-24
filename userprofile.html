@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="userprofile.css"/> 
         <link rel="stylesheet" href="global.css"/>
         <link rel="shortcut icon" type="images/png" href="images/logo1.png" />
+        <script src="userprofile.js"></script>
     </head>
 
     <body>
@@ -42,28 +43,48 @@
                 <button onclick="showPrompt()"  class="next">Start</button>
             </div>
             
-
-            <div class="cover">
+            <div class="inputSection">
                 <div class="top">
                     <h2 class="prompt">First Name:</h2>
+                        <div class="section-indicator">Section: 1</div>           
                 </div>
+
                 <div class="middle">
-                    <input type="text" placeholder="Enter your First Name">
+                    <input type="text" id="input" placeholder="Enter your First Name">
                 </div>
+
                 <div class="bottom">
                     <button onclick="Next()" class="next">Next</button>
-                    <button onclick="Skip()" class="skip" >Skip</button>
+                    <button onclick="Skip()" class="skip">Skip</button>
+                </div>
+
+                <div class="progress-bar">
+                    <div class="progress"></div>
                 </div>
             </div>
+
+            <div class="user-inputs">
+
+                <!-- Section 1's prompts-->
+                <div id="first-name">First Name:</div>
+                <div id="surname">Surname:</div>
+                <div id="age">Age:</div>
+                <div id="gender">Gender:</div>
+
+                <!-- Section 2's prompts-->
+                <div id="email">Email:</div>
+                <div id="phone-number">Phone Number:</div>
+                <div id="address">Address:</div>
+                <div id="postcode">Postcode:</div>
+
+                <!-- Section 3's prompts-->
+                <div id="allergies">Allergies:</div>
+                <div id="health-problems">Health Problems:</div>
+                <div id="blood-type">Blood Type:</div>
+                <div id="current-medications">Current Medications:</div>
+
+            </div>
             
-    </body>
+        </body>
 
-    <script>
-        let createdPrompt = "";
-        function showPrompt() {
-            document.querySelector(".cover").style.display = "flex";
-        }
-
-    </script>
-    
 </html>

@@ -23,6 +23,24 @@ body {
   align-items: center;
 }
 
+ul {
+  list-style-type: none;
+   /* position: fixed; */
+   top: 0;
+   width: 100%;
+   list-style-type: none;
+   margin: 0;
+   overflow: hidden;
+   background-color: #333;
+   /* extra padding on the right to give space to "page editor" */
+   padding-left: 20px;
+   padding-right: 20px;
+   display: flex;
+   justify-content: center;
+   gap: 85px;
+   align-items: center;
+}
+
 li {
   float: left;
 }

@@ -8,7 +8,7 @@ h1 {
 p {
     text-align: center;
 }
-.splashscreen {
-    text-align: center;
-    background-color: #4fa3ab;
+div h3, p {
+  text-align: center;
+  background-color: #4fa3ab;
 }

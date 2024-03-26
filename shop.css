@@ -121,3 +121,15 @@ section {
 div {
     margin-top: 5px;
 }
+section a:link, a:visited {
+    background-color: #333;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+section a:hover, a:active {
+    background-color: red;
+}

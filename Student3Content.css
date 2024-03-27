@@ -1,10 +1,15 @@
 h3 {
+    border: solid 3px #4fa3ab;
+    background-color: #333;
+    color: white;
     text-decoration: underline;
 }
 div {
-    width: 5%;
+    width: 500px;
     margin: auto;
 }
 .physical {
-    background-color: #4fa3ab;
+    border: solid 5px #4fa3ab;
+    background-color: #333;
+    color: white;
 }

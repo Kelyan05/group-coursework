@@ -51,17 +51,14 @@ p {
     color: white;
   }
   
-  /* visited link */
 .page-name:visited {
     color: white;
   }
-  
-  /* mouse over link */
+
 .page-name:hover {
     color: #4fa3ab;
   }
   
-  /* selected link */
 .page-name:active {
     color: white;
   }

@@ -23,7 +23,7 @@ h3 {
     margin-left: auto;
 }
 
-.physical {
+.mental1 {
     padding-left: 1%;
     padding-bottom: 1%;
     border: solid 5px #4fa3ab;
@@ -35,7 +35,7 @@ h3 {
     margin-left: auto;
 }
 
-.mental {
+.mental2 {
     padding-left: 1%;
     padding-bottom: 1%;
     border: solid 5px #4fa3ab;
@@ -47,7 +47,7 @@ h3 {
     margin-left: auto;
 }
 
-.social {
+.mental3 {
     padding-left: 1%;
     padding-bottom: 1%;
     border: solid 5px #4fa3ab;
@@ -55,6 +55,7 @@ h3 {
     color: white;
     width: 500px;
     margin-top: 1%;
+    margin-bottom: 3%;
     margin-right: auto;
     margin-left: auto;
 }
@@ -84,3 +85,25 @@ h3 {
 .links:active {
     color: white;
   }
+
+  .top-button {
+    background-color: #333;
+    color: white;
+    border: 2px solid #4fa3ab;
+    border-radius: 7px;     
+    margin-left: 46%;
+    padding: 1%;
+    
+}
+.top-button:hover {
+    background-color: #4fa3ab;
+}
+.top-button:active {
+    background-color: #333;
+    transform: translateY(4px);
+    
+}
+
+footer {
+    margin-top: 25px;
+}

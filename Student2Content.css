@@ -1,0 +1,97 @@
+body {
+    height: 275vh;
+}
+
+h3 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    border: solid 5px #4fa3ab;
+    background-color: #333;
+    color: white;
+    text-decoration: underline;
+}
+
+.intro {
+    padding-left: 1%;
+    border: solid 5px #4fa3ab;
+    background-color: #333;
+    color: white;
+    width: 500px;
+    margin-top: 2%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.achieve {
+    padding-left: 1%;
+    padding-bottom: 1%;
+    border: solid 5px #4fa3ab;
+    background-color: #333;
+    color: white;
+    width: 500px;
+    margin-top: 1%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pandemic {
+    padding-left: 1%;
+    padding-bottom: 1%;
+    border: solid 5px #4fa3ab;
+    background-color: #333;
+    color: white;
+    width: 500px;
+    margin-top: 1%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.tohelp {
+    padding-left: 1%;
+    padding-bottom: 1%;
+    border: solid 5px #4fa3ab;
+    background-color: #333;
+    color: white;
+    width: 500px;
+    margin-top: 1%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h2 {
+    padding-left: 1%;
+    border: none;
+}
+
+h3 {
+    border: none;
+}
+
+.links:link {
+    color: white;
+}
+
+.links:visited {
+    color: white;
+}
+
+.links:hover {
+    color: #4fa3ab;
+}
+
+.links:active {
+    color: white;
+}
+
+.achievetargets{
+    width: 70%;
+}
+
+.pandemicimg{
+    width: 70%;
+}
+
+.tohelpimg{
+    width: 70%;
+}

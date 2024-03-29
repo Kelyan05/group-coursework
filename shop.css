@@ -157,6 +157,7 @@ section a:hover, a:active {
     outline: none;
     border-radius: .3em;
     background-color: #EB5757;
+    margin-left: 5px;
 }
 .top-button:hover {
     background-color: #56CCF2;

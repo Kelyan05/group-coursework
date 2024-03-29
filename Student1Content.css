@@ -1,5 +1,5 @@
 body {
-    height: 220vh;
+    height: 200vh;
 }
 
 h3 {
@@ -100,4 +100,7 @@ h3 {
     background-color: #4fa3ab;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
+}
+footer {
+    margin-top: 25px;
 }

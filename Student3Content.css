@@ -97,6 +97,7 @@ h3 {
 }
 .top-button:hover {
     background-color: #4fa3ab;
+    transition: background-color 0.3s, color 0.3s;
 }
 .top-button:active {
     background-color: #333;

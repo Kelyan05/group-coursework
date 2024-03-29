@@ -1,10 +1,103 @@
+body {
+    height: 275vh;
+}
+
 h3 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    border: solid 5px #4fa3ab;
+    background-color: #333;
+    color: white;
     text-decoration: underline;
 }
-div {
+
+.intro {
+    padding-left: 1%;
+    border: solid 5px #4fa3ab;
+    background-color: #333;
+    color: white;
     width: 500px;
-    margin: auto;
+    margin-top: 2%;
+    margin-right: auto;
+    margin-left: auto;
 }
+
 .physical {
+    padding-left: 1%;
+    padding-bottom: 1%;
+    border: solid 5px #4fa3ab;
+    background-color: #333;
+    color: white;
+    width: 500px;
+    margin-top: 1%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.mental {
+    padding-left: 1%;
+    padding-bottom: 1%;
+    border: solid 5px #4fa3ab;
+    background-color: #333;
+    color: white;
+    width: 500px;
+    margin-top: 1%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.social {
+    padding-left: 1%;
+    padding-bottom: 1%;
+    border: solid 5px #4fa3ab;
+    background-color: #333;
+    color: white;
+    width: 500px;
+    margin-top: 1%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h2 {
+    padding-left: 1%;
+    border: none;
+}
+
+h3 {
+    border: none;
+}
+
+.links:link {
+    color: white;
+  }
+  
+.links:visited {
+    color: white;
+  }
+
+.links:hover {
+    color: #4fa3ab;
+  }
+  
+.links:active {
+    color: white;
+  }
+
+.top-button {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em .67em;
+    cursor: pointer;
+    outline: none;
+    border-radius: .3em;
+    background-color: #EB5757;
+}
+.top-button:hover {
+    background-color: #56CCF2;
+}
+.top-button:active {
     background-color: #4fa3ab;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }

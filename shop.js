@@ -67,12 +67,12 @@ function addItemToBasket(title,price,imageSrc) {
     var basketRowContents = `
         <div class="basket-item basket-column">
             <img class="basket-item-image" src="${imageSrc}" width="100" height="100">
-            <span class="basket-item-name">${title}</span>
+            <span class="basket-item-name basket-text">${title}</span>
         </div>
-        <span class="basket-price basket-column">${price}</span>
+        <span class="basket-price basket-column basket-text">${price}</span>
         <div class="basket-quantity basket-column">
             <input class="basket-quantity-input" type="number" value="1">
-            <button class="btn remove-button">REMOVE</button>
+            <button class="button remove-button">REMOVE</button>
         </div>`
     basketRow.innerHTML = basketRowContents
     basketItems.append(basketRow)

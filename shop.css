@@ -10,7 +10,6 @@ b {
 }
 h2 {
     color: white;
-    background-color: black;
 }
 img {
     max-width: 100%;
@@ -18,12 +17,14 @@ img {
 }
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(4, 300px);
+    grid-template-columns: repeat(4, 330px);
     justify-content: center;
     row-gap: 1em;
+    margin-top: 2%;
   }
 fieldset {
-    border-radius: 15px;
+    border-radius: 10px;
+    border: solid 5px #333;
 }
 select {
     margin-left: 7px;
@@ -31,6 +32,10 @@ select {
 .contact{
     background-color: #4fa3ab;
     margin-top: 20px;
+    border-radius: 10px;
+    border: solid 5px #4fa3ab;
+    background-color: #333;
+    color: white;
 }
 p {
     text-align: center;
@@ -40,12 +45,18 @@ h3 {
 }
 .special {
     margin-top: 20px;
+    border-radius: 10px;
+    border: solid 5px #4fa3ab;
+    background-color: #333;
+    color: white;
 }
 span {
     margin-left: 30px;
 }
 section {
-    background-color: #4fa3ab;
+    border-radius: 10px;
+    border: solid 5px #4fa3ab;
+    background-color: #333;
 }
 .basket-container {
     max-width: 900px;
@@ -66,18 +77,19 @@ section {
 .basket-item {
     width: 45%;
 }
-.btn {
+.button {
     text-align: center;
     vertical-align: middle;
     padding: .67em .67em;
     cursor: pointer;
     outline: none;
-    border-radius: 15px;
+    border-radius: .3em;
+    background-color: #EB5757;
 }
-.btn:hover {
-    background-color: #333;
+.button:hover {
+    background-color: #56CCF2;
 }
-.btn:active {
+.button:active {
     background-color: #4fa3ab;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
@@ -118,18 +130,42 @@ section {
     font-size: 1.2em;
     margin-right: 25px;
 }
-div {
-    margin-top: 5px;
-}
 section a:link, a:visited {
-    background-color: #333;
+    background-color: #EB5757;
     color: white;
     padding: 15px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    border-radius: .3em;
+    padding: .67em .67em;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 section a:hover, a:active {
-    background-color: red;
+    background-color:  #56CCF2;
+}
+.basket-text {
+    color: white;
+}
+.top-button {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em .67em;
+    cursor: pointer;
+    outline: none;
+    border-radius: .3em;
+    background-color: #EB5757;
+}
+.top-button:hover {
+    background-color: #56CCF2;
+}
+.top-button:active {
+    background-color: #4fa3ab;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+footer{
+    margin-top: 1%;
 }

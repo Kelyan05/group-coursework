@@ -1,36 +1,37 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-}
-h1 {
-  text-align: center;
+
+.line{
+  border-left: 5px solid #4fa3ab; 
+  height: 13%;
+  position: absolute;
+  left: 50%;
+  top: 3%;
 }
 
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 100vh;
+.headertitle{
+  position: absolute;
+  font-size: 250%;
+  left: 38%;
+  top: 4%;
 }
 
-.content {
-  flex: 1;
-  padding: 20px;
+.headertext{
+  position: absolute;
+  font-size: 250%;
+  left: 52%;
+  top: 4%;
 }
-
-.names {
-  flex: 1;
-  padding: 20px;
-  border-left: 2px solid #ccc;
-  /* Vertical border */
+.HeadLogo {
+  width: 7%;
+  top: 3%;
+  padding-left: 29%;
 }
-
-.names ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.names ul li {
-  margin-bottom: 10px;
+.border {
+  padding-left: 1%;
+  border: solid 5px #4fa3ab;
+  background-color: #333;
+  color: white;
+  width: 500px;
+  margin-top: 2%;
+  margin-right: auto;
+  margin-left: auto;
 }

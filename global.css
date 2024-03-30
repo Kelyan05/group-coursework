@@ -1,9 +1,10 @@
-/* override default body padding and margin */
+@import url("https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 body {
   margin: 0;
   padding: 0;
-  /* font-family: "Arial, Helvetica, sans-serif"; */
   overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
 }
 
 .topnav {
@@ -25,20 +26,20 @@ body {
 
 ul {
   list-style-type: none;
-   /* position: fixed; */
-    top: 0;
-    width: 100%;
-    list-style-type: none;
-    margin: 0;
-    overflow: hidden;
-    background-color: #333;
-    /* extra padding on the right to give space to "page editor" */
-    padding-left: 20px;
-    padding-right: 20px;
-    display: flex;
-    justify-content: center;
-    gap: 5%;
-    align-items: center;
+  /* position: fixed; */
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  background-color: #333;
+  /* extra padding on the right to give space to "page editor" */
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  align-items: center;
 }
 
 li {
@@ -50,6 +51,7 @@ li {
   align-items: center;
   justify-content: center;
   color: white;
+  transition: background-color 0.3s, color 0.3s;
   text-align: center;
   text-decoration: none;
   font-size: larger;
@@ -69,32 +71,31 @@ li {
   padding: 15px;
 }
 
-
-
 .HeadLogo {
   width: 7%;
   top: 3%;
   padding-left: 29%;
 }
 
-.line{
-  border-left: 5px solid #4fa3ab; 
-  /* need to make 5px into % because it is not responsive */
+.line {
+  border-left: 5px solid #4fa3ab;
   height: 13%;
   position: absolute;
   left: 50%;
   top: 3%;
 }
 
-.headertitle{
+.headertitle {
   position: absolute;
+  font-weight: 700;
   font-size: 250%;
   left: 38%;
   top: 4%;
 }
 
-.headertext{
+.headertext {
   position: absolute;
+  font-weight: 700;
   font-size: 250%;
   left: 52%;
   top: 4%;

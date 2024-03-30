@@ -17,7 +17,7 @@ img {
 }
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(4, 330px);
+    grid-template-columns: repeat(4, 400px);
     justify-content: center;
     row-gap: 1em;
     margin-top: 2%;

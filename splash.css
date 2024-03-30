@@ -9,6 +9,7 @@
 
 .headertitle{
   position: absolute;
+  font-weight: 700;
   font-size: 250%;
   left: 38%;
   top: 4%;
@@ -16,6 +17,7 @@
 
 .headertext{
   position: absolute;
+  font-weight: 700;
   font-size: 250%;
   left: 52%;
   top: 4%;
@@ -34,4 +36,8 @@
   margin-top: 2%;
   margin-right: auto;
   margin-left: auto;
+}
+.gif {
+  margin-left: 42%;
+  margin-top: 1%;
 }

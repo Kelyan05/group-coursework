@@ -85,20 +85,19 @@ h3 {
   }
 
 .top-button {
-    text-align: center;
-    vertical-align: middle;
-    padding: .67em .67em;
-    cursor: pointer;
-    outline: none;
-    border-radius: .3em;
-    background-color: #EB5757;
+    background-color: #333;
+    color: white;
+    border: 3px solid #4fa3ab;
+    border-radius: 7px;     
+    margin-left: 46%;
+    padding: 1%;
 }
 .top-button:hover {
-    background-color: #56CCF2;
+    background-color: #4fa3ab;
+    transition: background-color 0.3s, color 0.3s;
 }
 .top-button:active {
-    background-color: #4fa3ab;
-    box-shadow: 0 5px #666;
+    background-color: #333;
     transform: translateY(4px);
 }
 footer {

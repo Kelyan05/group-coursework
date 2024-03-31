@@ -35,6 +35,21 @@ input[type="text"]:focus {
     border: 0.188rem solid #4fa3ab;
 }
 
+input[type="email"] {
+    padding: 0.75rem 1.25rem;
+    margin: 0.5rem 0;
+    box-sizing: border-box;
+    border: 0.188rem solid #ccc;
+    border-radius: 12px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type="email"]:focus {
+    border: 0.188rem solid #4fa3ab;
+}
+
 textarea {
     width: 20%;
     padding: 0.75rem 1.25rem;

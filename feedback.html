@@ -10,32 +10,142 @@
 
     <body>
         <header class="header">
-            <br/>
-            <br/>
+            <br />
+            <br />
             <img src="images/logo1.png" class="HeadLogo" alt="heart icon" />
             <div class="headertitle">
-                VITALITY <br/> HUB
+                VITALITY <br />
+                HUB
             </div>
             <div class="line"></div>
-            <div class="headertext">
-                GOOD HEALTH AND <br/>WELL-BEING
-            </div>
-            <br/>
-            <br/>
+            <div class="headertext">GOOD HEALTH AND <br />WELL-BEING</div>
+            <br />
+            <br />
         </header>
 
-    <nav class="topnav">
+        <nav class="topnav">
             <ul>
-            <li><a class="navlink" href="home.html">Home</a></li>
-            <li><a class="navlink" href="gallery.html">Gallery</a></li>
-            <li><a class="navlink" href="shop.html">Shop</a></li>
-            <li><a class="navlink" href="userprofile.html">User Profile</a></li>
-            <li><a class="navlink" href="feedback.html">Feedback</a></li>
-            <li><a class="navlink" href="sitemap.html">Sitemap</a></li>
-            <li><a class="navlink" href="team.html">Team</a></li>
+                <li><a class="navlink" href="home.html">Home</a></li>
+                <li><a class="navlink" href="gallery.html">Gallery</a></li>
+                <li><a class="navlink" href="shop.html">Shop</a></li>
+                <li><a class="navlink" href="userprofile.html">User Profile</a></li>
+                <li><a class="navlink" href="feedback.html">Feedback</a></li>
+                <li><a class="navlink" href="sitemap.html">Sitemap</a></li>
+                <li><a class="navlink" href="team.html">Team</a></li>
             </ul>
-    </nav>
+        </nav>
 
+        <h1>Feedback</h1>
+        <h2>Please fill out the following form to let us know of your experience</h2>
+        <br />
+        <br />
 
+        <script src="feedback.js"></script>
+        <form action="#" name="feedbackform" onsubmit="return OnFormSubmit();" method="post" enctype="text/plain">
+            <label for="Name">Enter your name : </label>
+            <br />
+            <br />
+            <input type="text" name="Name" id="name" placeholder="Enter your full name" required />
+            <br />
+            <br />
+            <br />
+
+            <label for="Email">Enter your email : </label>
+            <br />
+            <br />
+            <input type="email" name="Email" id="email" placeholder="Enter your email " required />
+            <br />
+            <br />
+            <br />
+
+            <label for="vist">Was this your first time visting our website?</label>
+            <br />
+            <br />
+            <input type="radio" name="Was this your first time visting our website?" id="myRadio" value="yes" required />
+            <label for="yes">Yes</label>
+            <input type="radio" name="Was this your first time visting our website?" id="myRadio" value="no" required />
+            <label for="no">No</label>
+            <br />
+            <br />
+            <br />
+
+            <label for="informative">Did you find this website informative and user-friendly?</label>
+            <br />
+            <br />
+            <input
+                type="radio"
+                name="Did you find this website informative and user-friendly?"
+                id="myRadio"
+                value="yes"
+                required
+            />
+            <label for="yes">Yes</label>
+            <input
+                type="radio"
+                name="Did you find this website informative and user-friendly?"
+                id="myRadio"
+                value="no"
+                required
+            />
+            <label for="no">No</label>
+            <br />
+            <br />
+            <br />
+
+            <label for="recommendations"> If "No", please recommend any changes that can be made below: </label>
+            <br />
+            <br />
+            <textarea
+                id="recommendations"
+                name="Any recommendations made"
+                placeholder="Please write your recommendations here..."
+                required
+            ></textarea>
+            <br />
+            <br />
+            <br />
+
+            <label for="website">Would you recommend our website?</label>
+            <br />
+            <br />
+            <input type="radio" name="Would you recommend our website?" id="myRadio" value="yes" />
+            <label for="yes">Yes</label>
+            <input type="radio" name="Would you recommend our website?" id="myRadio" value="no" />
+            <label for="no">No</label>
+            <br />
+            <br />
+            <br />
+
+            <label for="offers">Would you like to recieve updates regarding any news and offers related to this website?</label>
+            <br />
+            <br />
+            <input type="radio" name="Opt for offers" id="myRadio" value="yes" required />
+            <label for="yes">Yes - via email</label> <br /><br />
+            <input type="radio" name="Opt for offers" id="myRadio" value="no" required />
+            <label for="no">No</label>
+            <br />
+            <br />
+            <br />
+
+            <label for="additional">If you have any further questions or requests, please write them below : </label>
+            <br />
+            <br />
+            <textarea
+                id="additional"
+                name="Any further questions or requests"
+                placeholder="Please write your questions or requests here..."
+                required
+            ></textarea>
+            <br />
+            <br />
+
+            <input type="submit" value="Submit Feedback" class="button1" />
+            <input type="reset" value="Reset Feedback" class="button2" />
+            <br />
+            <br />
+            <br />
+
+            <!-- once all fields have been submitted pop up with thank you for answering our feedback form... -->
+        </form>
     </body>
 </html>

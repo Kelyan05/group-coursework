@@ -1,0 +1,98 @@
+h1 {
+    font-size: 400%;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 1%;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    font-size: 125%;
+}
+
+::placeholder {
+    font-size: larger;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+input[type="text"] {
+    padding: 0.75rem 1.25rem;
+    margin: 0.5rem 0;
+    box-sizing: border-box;
+    border: 0.188rem solid #ccc;
+    border-radius: 12px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type="text"]:focus {
+    border: 0.188rem solid #4fa3ab;
+}
+
+input[type="email"] {
+    padding: 0.75rem 1.25rem;
+    margin: 0.5rem 0;
+    box-sizing: border-box;
+    border: 0.188rem solid #ccc;
+    border-radius: 12px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type="email"]:focus {
+    border: 0.188rem solid #4fa3ab;
+}
+
+textarea {
+    width: 20%;
+    padding: 0.75rem 1.25rem;
+    box-sizing: border-box;
+    margin: 0.5rem 0;
+    border: 0.188rem solid #ccc;
+    border-radius: 12px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    font-family: "Roboto", sans-serif;
+}
+
+textarea:focus {
+    border: 0.188rem solid #4fa3ab;
+}
+
+.button1 {
+    padding: 0.75rem 1.25rem;
+    margin: 0.5rem 0;
+    box-sizing: border-box;
+    border: 0.188rem solid #ccc;
+    border-radius: 12px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+.button1:hover {
+    background-color: #4fa3ab;
+}
+
+.button2 {
+    padding: 0.75rem 1.25rem;
+    margin: 0.5rem 0;
+    box-sizing: border-box;
+    border: 0.188rem solid #ccc;
+    border-radius: 12px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+.button2:hover {
+    background-color: #4fa3ab;
+}

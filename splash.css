@@ -1,37 +1,45 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"); /*Imports the font specified in the url*/
 .line{
-  border-left: 5px solid #4fa3ab; 
-  height: 13%;
-  position: absolute;
+  border-left: 5px solid #4fa3ab; /*Creates a border*/
+  height: 13%;  /*Sets height*/
+  position: absolute;  /*Makes the position fixed*/
   left: 50%;
   top: 3%;
 }
-
+ /*Styles the headertitle class*/
 .headertitle{
-  position: absolute;
+  position: absolute; /*Makes the position fixed*/
+  font-weight: 700;
   font-size: 250%;
   left: 38%;
   top: 4%;
 }
-
-.headertext{
-  position: absolute;
-  font-size: 250%;
+ /*Styles for headertext class*/
+.headertext{ 
+  position: absolute; /*Makes the position fixed*/
+  font-weight: 700;  /*Determines how bold the font will be*/
+  font-size: 250%;  /*Determines the font size */
   left: 52%;
   top: 4%;
 }
+ /*Style the HeadLogo class*/
 .HeadLogo {
   width: 7%;
   top: 3%;
   padding-left: 29%;
 }
+/* Styles for the border*/
 .border {
   padding-left: 1%;
-  border: solid 5px #4fa3ab;
-  background-color: #333;
-  color: white;
+  border: solid 5px #4fa3ab;  /*Creates a border*/
+  background-color: #333;  /*Sets background colour*/
+  color: white; 
   width: 500px;
   margin-top: 2%;
-  margin-right: auto;
+  margin-right: auto; /*lets the browser calculate the margin*/
   margin-left: auto;
+}
+.gif {
+  margin-left: 42%; 
+  margin-top: 1%;
 }

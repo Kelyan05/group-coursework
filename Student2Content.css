@@ -95,3 +95,28 @@ h3 {
 .tohelpimg{
     width: 70%;
 }
+
+.top-button {
+    background-color: #333;
+    color: white;
+    border: 3px solid #4fa3ab;
+    border-radius: 7px;     
+    margin-left: 46%;
+    padding: 1%;
+    
+}
+
+.top-button:hover {
+    background-color: #4fa3ab;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.top-button:active {
+    background-color: #333;
+    transform: translateY(4px);
+    
+}
+
+footer {
+    margin-top: 25px;
+}

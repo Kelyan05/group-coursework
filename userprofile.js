@@ -1,7 +1,7 @@
 let sectionPrompts = [
     ["First Name", "Surname", "Age", "Gender"],
     ["Email", "Phone Number", "Address", "Postcode"],
-    ["Allergies", "Health Problems", "Blood Type", "Current Medications"]
+    ["Allergies", "Health Problems", "Blood Type", "Interest in health"]
 ];
 
 let currentSectionIndex = 0;

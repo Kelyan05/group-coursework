@@ -63,7 +63,7 @@ function getCurrentPrompt() {
 }
 
 function Skip() {
-// Update progress bar
+// Updates the progress bar
 let totalPrompts = sectionPrompts.reduce((acc, val) => acc + val.length, 0);
 let progressPercent = ((currentSectionIndex * 4 + currentPromptIndex + 1) / totalPrompts) * 100;
 document.querySelector(".progress").style.width = progressPercent + "%";

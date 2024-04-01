@@ -1,72 +1,90 @@
+/* Setting the height of the body to be 125 viewport heights */
 body {
   height: 125vh;
 }
 
+/* Styling for h1 elements */
 h1 {
+  /* Adding border */
   border: solid 5px #333;
+  /* Making text bold */
   font-weight: bold;
+  /* Adding underline */
   text-decoration: underline;
+  /* Setting font family */
   font-family: Arial, Helvetica, sans-serif;
+  /* Setting margins */
   margin-top: 2%;
   margin-left: 4%;
   margin-right: 4%;
+  /* Centering text */
   text-align: center;
+  /* Adding border */
   border: solid 5px #4fa3ab;
+  /* Setting background color */
   background-color: #333;
+  /* Setting text color */
   color: white;
 }
 
+/* Styling for p elements */
 p {
+  /* Setting font size */
   font-size: 20px;
+  /* Adding border */
   border: solid 5px #333;
+  /* Adding border */
   border: solid 5px #4fa3ab;
+  /* Setting background color */
   background-color: #333;
+  /* Setting text color */
   color: white;
+  /* Centering text */
   text-align: center;
+  /* Setting margin */
   margin: 1%;
 }
 
+/* Styling for h2 elements */
 h2 {
+  /* Setting font size */
   font-size: 24px;
+  /* Adding underline */
   text-decoration: underline;
+  /* Adding border */
   border: solid 5px #333;
+  /* Centering text */
   text-align: center;
+  /* Adding border */
   border: solid 5px #4fa3ab;
+  /* Setting background color */
   background-color: #333;
+  /* Setting text color */
   color: white;
+  /* Setting margin */
   margin: 1%;
 }
 
-p {
-  font-size: 20px;
-  border: solid 5px #333;
-  text-align: center;
-  border: solid 5px #4fa3ab;
-  background-color: #333;
-  color: white;
-  margin: 1%;
-}
-
+/* Styling for links with class page-name in their normal state */
 .page-name:link {
+  /* Setting color for unvisited links */
   color: white;
 }
 
+/* Styling for links with class page-name in their visited state */
 .page-name:visited {
+  /* Setting color for visited links */
   color: white;
 }
 
+/* Styling for links with class page-name on hover */
 .page-name:hover {
+  /* Setting color for links on hover */
   color: #4fa3ab;
 }
 
+/* Styling for links with class page-name when active */
 .page-name:active {
+  /* Setting color for active links */
   color: white;
 }
-
-
-
-
-
-
-
-

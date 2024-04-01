@@ -1,105 +1,168 @@
+/* Setting the height of the body to be 200 viewport heights */
 body {
     height: 200vh;
 }
 
+/* Styling for h3 elements */
 h3 {
+    /* Adding padding */
     padding-top: 1%;
     padding-bottom: 1%;
     padding-left: 1%;
+    /* Adding a border */
     border: solid 5px #4fa3ab;
+    /* Setting background color */
     background-color: #333;
+    /* Setting text color */
     color: white;
+    /* Adding underline */
     text-decoration: underline;
 }
 
+/* Styling for elements with class "intro" */
 .intro {
+    /* Adding padding */
     padding-left: 1%;
+    /* Adding a border */
     border: solid 5px #4fa3ab;
+    /* Setting background color */
     background-color: #333;
+    /* Setting text color */
     color: white;
+    /* Setting width */
     width: 500px;
+    /* Margins */
     margin-top: 2%;
     margin-right: auto;
     margin-left: auto;
 }
 
+/* Styling for elements with class "physical" */
 .physical {
+    /* Adding padding */
     padding-left: 1%;
     padding-bottom: 1%;
+    /* Adding a border */
     border: solid 5px #4fa3ab;
+    /* Setting background color */
     background-color: #333;
+    /* Setting text color */
     color: white;
+    /* Setting width */
     width: 500px;
+    /* Margins */
     margin-top: 1%;
     margin-right: auto;
     margin-left: auto;
 }
 
+/* Styling for elements with class "mental" */
 .mental {
+    /* Adding padding */
     padding-left: 1%;
     padding-bottom: 1%;
+    /* Adding a border */
     border: solid 5px #4fa3ab;
+    /* Setting background color */
     background-color: #333;
+    /* Setting text color */
     color: white;
+    /* Setting width */
     width: 500px;
+    /* Margins */
     margin-top: 1%;
     margin-right: auto;
     margin-left: auto;
 }
 
+/* Styling for elements with class "social" */
 .social {
+    /* Adding padding */
     padding-left: 1%;
     padding-bottom: 1%;
+    /* Adding a border */
     border: solid 5px #4fa3ab;
+    /* Setting background color */
     background-color: #333;
+    /* Setting text color */
     color: white;
+    /* Setting width */
     width: 500px;
+    /* Margins */
     margin-top: 1%;
     margin-right: auto;
     margin-left: auto;
 }
 
+/* Styling for h2 elements */
 h2 {
+    /* Adding padding */
     padding-left: 1%;
+    /* Removing border */
     border: none;
 }
 
+/* Styling for h3 elements */
 h3 {
+    /* Removing border */
     border: none;
 }
 
+/* Styling for links */
 .links:link {
+    /* Setting color for unvisited links */
     color: white;
-  }
-  
+}
+
 .links:visited {
+    /* Setting color for visited links */
     color: white;
-  }
+}
 
 .links:hover {
+    /* Setting color for links on hover */
     color: #4fa3ab;
-  }
-  
-.links:active {
-    color: white;
-  }
+}
 
-.top-button {
-    background-color: #333;
+.links:active {
+    /* Setting color for active links */
     color: white;
+}
+
+/* Styling for top button */
+.top-button {
+    /* Setting background color */
+    background-color: #333;
+    /* Setting text color */
+    color: white;
+    /* Adding border */
     border: 3px solid #4fa3ab;
-    border-radius: 7px;     
+    /* Adding border radius */
+    border-radius: 7px;
+    /* Setting margin */
     margin-left: 46%;
+    /* Adding padding */
     padding: 1%;
 }
+
+/* Styling for top button on hover */
 .top-button:hover {
+    /* Changing background color on hover */
     background-color: #4fa3ab;
+    /* Adding transition effect */
     transition: background-color 0.3s, color 0.3s;
 }
+
+/* Styling for top button when active */
 .top-button:active {
+    /* Changing background color when active */
     background-color: #333;
+    /* Adding translateY effect */
     transform: translateY(4px);
 }
+
+/* Styling for footer */
 footer {
+    /* Adding margin at the top */
     margin-top: 25px;
 }

@@ -1,35 +1,51 @@
+/* Styling for labels */
 label {
     padding: 5px;
 }
 
+/* Styling for h1 headings */
 h1 {
     text-align: center;
 }
+
+/* Styling for bold text */
 b {
     color: red;
 }
+
+/* Styling for h2 headings */
 h2 {
     color: white;
 }
+
+/* Styling for images */
 img {
     max-width: 100%;
     height: auto;
 }
+
+/* Grid container class styling */
 .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 400px);
     justify-content: center;
     row-gap: 1em;
     margin-top: 2%;
-  }
+}
+
+/* Fieldset styling */
 fieldset {
     border-radius: 10px;
     border: solid 5px #333;
 }
+
+/* Select dropdown styling */
 select {
     margin-left: 7px;
 }
-.contact{
+
+/* contact class styling */
+.contact {
     background-color: #4fa3ab;
     margin-top: 20px;
     border-radius: 10px;
@@ -37,12 +53,18 @@ select {
     background-color: #333;
     color: white;
 }
+
+/* Paragraph styling */
 p {
     text-align: center;
 }
+
+/* H3 styling */
 h3 {
     text-align: center;
 }
+
+/* special class styling */
 .special {
     margin-top: 20px;
     border-radius: 10px;
@@ -50,20 +72,27 @@ h3 {
     background-color: #333;
     color: white;
 }
+
+/* Span tag styling */
 span {
     margin-left: 30px;
 }
+
+/* Section styling */
 section {
     border-radius: 10px;
     border: solid 5px #4fa3ab;
     background-color: #333;
 }
+
+/* Basket container styling */
 .basket-container {
     max-width: 900px;
     margin: 0 auto;
     padding: 0 1.5em;
 }
 
+/* Styling for basket columns */
 .basket-column {
     display: flex;
     align-items: center;
@@ -71,12 +100,18 @@ section {
     padding-bottom: 10px;
     margin-top: 10px;
 }
+
+/* Styling for basket rows */
 .basket-row {
     display: flex;
 }
+
+/* Styling for basket items */
 .basket-item {
     width: 45%;
 }
+
+/* Styling for buttons */
 .button {
     text-align: center;
     vertical-align: middle;
@@ -86,14 +121,20 @@ section {
     border-radius: .3em;
     background-color: #EB5757;
 }
+
+/* Button hover effect */
 .button:hover {
     background-color: #56CCF2;
 }
+
+/* Button active effect */
 .button:active {
     background-color: #4fa3ab;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
+
+/* Remove button styling */
 .remove-button {
     color: white;
     background-color: #EB5757;
@@ -101,23 +142,35 @@ section {
     border-radius: .3em;
     font-weight: bold;
 }
+
+/* Basket item styling */
 .basket-item {
     width: 45%;
 }
+
+/* Basket quantity styling */
 .basket-quantity {
     width: 35%;
 }
+
+/* Basket price styling */
 .basket-price {
     width: 20%;
     height: auto;
     border-radius: 10px;
 }
+
+/* Basket item image styling */
 .basket-item-image {
     width: 75px;
 }
+
+/* Basket item name styling */
 .basket-item-name {
     margin-left: .5em;
 }
+
+/* Basket quantity input styling */
 .basket-quantity-input {
     height: 34px;
     width: 50px;
@@ -130,7 +183,10 @@ section {
     font-size: 1.2em;
     margin-right: 25px;
 }
-section a:link, a:visited {
+
+/* Styling for links in sections */
+section a:link,
+a:visited {
     background-color: #EB5757;
     color: white;
     padding: 15px 25px;
@@ -143,12 +199,18 @@ section a:link, a:visited {
     margin-bottom: 1%;
 }
 
-section a:hover, a:active {
-    background-color:  #56CCF2;
+/* Link hover and active effects */
+section a:hover,
+a:active {
+    background-color: #56CCF2;
 }
+
+/* Basket text styling */
 .basket-text {
     color: white;
 }
+
+/* Back to top button styling */
 .top-button {
     text-align: center;
     vertical-align: middle;
@@ -159,14 +221,20 @@ section a:hover, a:active {
     background-color: #EB5757;
     margin-left: 5px;
 }
+
+/* Back to top button hover effect */
 .top-button:hover {
     background-color: #56CCF2;
 }
+
+/* Back to top button active effect */
 .top-button:active {
     background-color: #4fa3ab;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
-footer{
+
+/* Footer styling */
+footer {
     margin-top: 1%;
 }

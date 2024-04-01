@@ -1,10 +1,13 @@
+// Wait for the document to finish loading before executing the code
 if (document.readyState == "loading") {
     document.addEventListener('DOMContentLoaded', ready)
 } else {
     ready()
 }
+// Function to execute when the document is ready
 
 function ready () {
+    // Add event listeners for removing basket items, changing quantities, and adding items to the basket
     var removeBasketItemButtons = document.getElementsByClassName('remove-button')
     console.log(removeBasketItemButtons)
     for (var i = 0; i < removeBasketItemButtons.length; i++) {
@@ -25,13 +28,13 @@ function ready () {
     }
 }
  
-
+// Function to remove an item from the basket
 function removeBasketItem(event) {
     var buttonClicked = event.target
     buttonClicked.parentElement.parentElement.remove()
     updateBasketTotal()
 }
-
+// Function to handle quantity changes
 function quantityChanged(event) {
     var input = event.target
     if (isNaN(input.value) || input.value <= 0) {//NaN means is not a number 
@@ -40,7 +43,7 @@ function quantityChanged(event) {
     updateBasketTotal()
 }
 
-
+// Function to handle adding items to the basket
 function addToBasketClicked(event) {
     var button = event.target
     var shopItem = button.parentElement.parentElement
@@ -51,7 +54,7 @@ function addToBasketClicked(event) {
     addItemToBasket(title,price,imageSrc)
     updateBasketTotal()
 }
-
+// Function to add an item to the basket
 function addItemToBasket(title,price,imageSrc) {
     var basketRow = document.createElement('div')
     basketRow.classList.add('basket-row')
@@ -79,11 +82,12 @@ function addItemToBasket(title,price,imageSrc) {
     basketRow.getElementsByClassName('remove-button')[0].addEventListener('click',removeBasketItem)
     basketRow.getElementsByClassName('basket-quantity-input')[0].addEventListener('change', quantityChanged)
 }
-
+// Function to update the total price of the basket
 function updateBasketTotal() {
     var basketItemContainer = document.getElementsByClassName('basket-items')[0]
     var basketRows = basketItemContainer.getElementsByClassName('basket-row')
     var total = 0 
+    // Loops through each basket row and calculates the total price
     for (var i = 0; i < basketRows.length; i++) {
         var basketRow = basketRows[i]
         var priceElement = basketRow.getElementsByClassName('basket-price')[0]
@@ -92,6 +96,8 @@ function updateBasketTotal() {
         var quantity = quantityElement.value
         total = total + (price * quantity)
     }
-    total = Math.round(total * 100 ) / 100 //round to 2dp
+    // Round the total to 2 decimal places
+    total = Math.round(total * 100 ) / 100
+    // Updates the total price displayed in the basket
     document.getElementsByClassName("basket-total-price")[0].innerText = '£' + total
 }

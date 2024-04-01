@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+  <!--contains meta information about the HTML page-->
   <meta charset="UTF-8" />
   <link rel="stylesheet" href="shop.css" />
   <link rel="stylesheet" href="global.css" />
@@ -12,6 +13,7 @@
 
 <body>
   <header class="header">
+    <!-- Header section containing logo, title, and slogan -->
     <br />
     <br />
     <img src="images/logo1.png" class="HeadLogo" alt="heart icon" />
@@ -27,6 +29,7 @@
   </header>
 
   <nav class="topnav">
+    <!--Used to set navigation links-->
     <ul>
       <li><a class="navlink" href="home.html">Home</a></li>
       <li><a class="navlink" href="gallery.html">Gallery</a></li>
@@ -35,20 +38,27 @@
       <li><a class="navlink" href="feedback.html">Feedback</a></li>
       <li><a class="navlink" href="sitemap.html">Sitemap</a></li>
       <li><a class="navlink" href="team.html">Team</a></li>
+      <!--Creates links to the files specified in the href-->
     </ul>
   </nav>
 
+
+  <!-- Shop items section -->
   <form>
     <div class="grid-container">
       <div class="shop-item">
         <fieldset>
+          <!-- Title of the item -->
           <span class="shop-item-title">UNICEF Reusable Canvas Shopping Tote, "UNICEF Tote Bag"</span>
+          <!-- Image of the item -->
           <img class="shop-item-image" src="images/ShoppingBag.jpg" alt="image1" />
+          <!-- Details and price -->
           <div class="shop-item-details">
             <span class="shop-item-price">£18.88</span><br>
             <button class="button basket-button" type="button">Add To Basket</button>
           </div>
         </fieldset>
+        <!-- Other shop items with similar structure -->
       </div>
       <div class="shop-item">
         <fieldset>
@@ -207,27 +217,44 @@
   </form>
   <br>
   <section class="basket-container">
+    <!-- Basket section containing items, prices, quantities, and total -->
     <h3 class="basket-title basket-text">BASKET</h3>
+    <!-- Heading for the basket section -->
     <div class="basket-row">
+      <!-- Row for displaying item, price, and quantity -->
       <span class="basket-item basket-column basket-text">ITEM</span>
+      <!-- Column for displaying item name -->
       <span class="basket-price basket-column basket-text">PRICE</span>
+      <!-- Column for displaying item price -->
       <span class="basket-quantity basket-column basket-text">QUANTITY</span>
+      <!-- Column for displaying item quantity -->
+
     </div>
     <div class="basket-items">
+      <!-- Container for added basket items -->
     </div>
     <div class="basket-total">
+      <!-- Section displaying total price of items in the basket -->
       <strong class="basket-total-title basket-text">Total</strong>
+      <!-- Title for the total price -->
       <span class="basket-total-price basket-text">£0</span>
+      <!-- Displays the total price -->
     </div>
     <a href="#checkout">CHECKOUT</a>
+    <!-- Link to navigate to the checkout section -->
   </section>
   <fieldset class="special">
     <h3 id="checkout">You are almost there...</h3>
+    <!-- Heading for the checkout section -->
     <p>Fill in the details below to complete your purchase :)</p>
+    <!-- Instructions for completing the purchase -->
   </fieldset>
   <form>
+    <!-- Form for entering payment details -->
     <fieldset class="contact">
       <h2>Payment Details</h2>
+      <!-- Heading for the Paymenet Details section -->
+      <!-- Input fields for card number, cardholder name, expiry date, and CCV -->
       <label for="cardnumber">Card Number</label><br />
       <input type="text" id="cardnumber" name="cardnumber" size="30" /><br />
       <label for="cardnumber">Cardholder Name</label><br />
@@ -241,8 +268,10 @@
     </fieldset>
   </form>
   <form>
+    <!-- Form for entering billing address -->
     <fieldset class="contact">
       <h2>Billing Address</h2>
+      <!-- Input fields for Address Line 1, Address Line 2, Address Line 3,Town/City, state/Country and country selection-->
       <label for="addressline1">Address Line 1</label><br />
       <input type="text" id="addressline1" name="addressline1" size="30" /><br />
       <label for="addressline2"> Adress Line 2</label><br />
@@ -297,6 +326,7 @@
     </fieldset>
   </form>
   <form>
+    <!-- Form for entering contact details -->
     <fieldset class="contact">
       <h2>Contact details</h2>
       <label for="firstname">First Name </label><br />
@@ -315,8 +345,11 @@
       <input type="reset" name="ClearFields" id="reset3" value="Clear Fields" size="5" />
     </fieldset>
   </form>
+
   <footer>
+    <!-- Footer section with link to go back to the top -->
     <a class="top-button" href="#top">Back to the top</a>
+    <!--Creates a link that can be clicked on to go to the top of the webpage-->
   </footer>
   <br>
 

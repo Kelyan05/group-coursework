@@ -1,18 +1,19 @@
-
 .container{
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 50px;
+    padding:2rem;
 }
-.gallery{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 30px;
-}
-.gallery img{
-    width: 100%;
 
+.slider-wrapper{
+    position: realative;
+    max-width: 48rem;
+    margin: 0 auto;
+}
+
+.slider{
+    display: flex;
+    aspect-ratio: 16/9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0,0%,0%,0,25);
+    border-radius: 0.5rem;
 }

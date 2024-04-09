@@ -23,10 +23,7 @@ text {
 text:hover {
   fill: #333;
 }
-line {
-    stroke: red;
-    stroke-width: 2;
-  }
+
 svg {
   margin: 0 10px;
   border: 1px solid #ccc;
